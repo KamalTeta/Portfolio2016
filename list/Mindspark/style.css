@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+/* DIV'ER */
+* {
+	margin:0 auto;
+	padding:0;
+}
+
+html,body,.bgImg {
+	height: 100%;
+	width: 100%;
+}
+
+.bgImg{
+	background-image:url(images/bg.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;	
+}
+
+.wrapper {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	z-index:2;
+}
+
+.header {
+	min-height:300px;
+	position:relative
+	/*background-image:url(images/2.jpg);*/
+}
+
+.logospace {
+	background-color:rgba(0,0,0,0.4);
+	width:960px;
+	position:absolute;
+	z-index:5;
+}
+
+.navigation {
+	min-height:82px;
+	background-image:url(images/men.png);
+	background-repeat:no-repeat;
+	margin-top:-22px;
+	width:960px;
+	position:absolute;
+	z-index:5;
+}
+
+.content {
+	min-height:560px;
+	background-color:rgba(0,0,0,0.25);
+}
+
+.content2 {
+	min-height:720px;
+	background-color:rgba(0,0,0,0.25);
+}
+
+.main {
+	background-color:rgba(255,255,255,0.6);
+	min-height:460px;
+	width:550px;
+	float:left;
+	margin-top:80px;
+	margin-left:20px;
+}
+
+.sidebar {
+	background-color:rgba(255,255,255,0.6);
+	min-height:460px;
+	width:350px;
+	float:right;
+	margin-top:80px;
+	margin-right:20px;
+}
+
+.mainG {
+	background-color:rgba(255,255,255,0.6);
+	min-height:460px;
+	width:920px;
+	float:left;
+	margin-top:80px;
+	margin-left:20px;
+}
+
+.mainG2 {
+	background-color:rgba(255,255,255,0.6);
+	min-height:620px;
+	width:920px;
+	float:left;
+	margin-top:80px;
+	margin-left:20px;
+}
+
+.mainG3 {
+	background-color:rgba(255,255,255,0.6);
+	min-height:50px;
+	width:920px;
+	float:left;
+	margin-top:80px;
+	margin-left:20px;
+}
+
+.third {
+	background-color:rgba(255,255,255,0.6);
+	height:390px;
+	width:293px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.footer {
+	height:39px;
+	background-image:url(images/footer.jpg);
+}
+
+.sli {
+	z-index:0;
+}
+
+/* TEKST */
+
+@font-face{
+    font-family:"Harabara";
+    src:url('font/Harabara.ttf'),
+        url('font/Harabara.eot');
+}
+
+h1 {
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	margin-left:25px;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24;
+}
+
+h4 {
+	color:white;
+	font-family:"Harabara";
+	font-size:20px;
+	padding-top:8px;
+	padding-left:25px;
+}
+
+p {
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:25px;
+	padding-right:20px;
+}
+
+ul {
+	padding-top:30px;
+	padding-left:25px;
+}
+
+li, li a {
+	display:inline;
+	text-decoration:none;
+	color:white;
+	font-family:"Harabara";
+	font-size:36px;
+}
+
+li a:hover {
+	color:rgb(153,153,153);
+}
+
+
+.flavor {
+	color:black;
+	font-family:"Harabara";
+	font-size:36px;
+	padding-left:10px;
+}
+
+a, a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+/* BILLEDER */
+
+#MSlogo {
+	margin-top:10px;
+	margin-left:25px;
+}
+
+.logo{
+	margin-top:-60px;
+	margin-left:805px;
+}
+
+.box{
+	height:125px;
+	width:239px;
+}
+
+.lis {
+	margin-left:55px;
+}
+
+.liss {
+	display:inline;
+	float:left;
+	margin:5px;
+}
+
+.amnesty {
+	background-image:url(images/thumbnails/Amnesty.jpg);
+	background-size:cover;
+}
+
+.amnesty:hover {
+	background-image:url(images/thumbnails/Amnesty.gif);
+	background-size:cover;
+}
+
+.eple {
+	background-image:url(images/thumbnails/eplehuset.jpg);
+	background-size:cover;
+}
+
+.eple:hover {
+	background-image:url(images/thumbnails/eplehuset.gif);
+	background-size:cover;
+}
+
+.evolve {
+	background-image:url(images/thumbnails/Evolving-E.jpg);
+	background-size:cover;
+}
+
+.evolve:hover {
+	background-image:url(images/thumbnails/Evolving-E.gif);
+	background-size:cover;
+}
+
+.fury {
+	background-image:url(images/thumbnails/furyfest.jpg);
+	background-size:cover;
+}
+
+.fury:hover {
+	background-image:url(images/thumbnails/furyfest.gif);
+	background-size:cover;
+}
+.coffee {
+	background-image:url(images/thumbnails/GrowersCupCoffee.jpg);
+	background-size:cover;
+}
+
+.coffee:hover {
+	background-image:url(images/thumbnails/GrowersCupCoffee.gif);
+	background-size:cover;
+}
+
+.kool {
+	background-image:url(images/thumbnails/koolbandi.jpg);
+	background-size:cover;
+}
+
+.kool:hover {
+	background-image:url(images/thumbnails/koolbandi.gif);
+	background-size:cover;
+}
+
+.mosh {
+	background-image:url(images/thumbnails/moshball.jpg);
+	background-size:cover;
+}
+
+.mosh:hover {
+	background-image:url(images/thumbnails/moshball.gif);
+	background-size:cover;
+}
+
+.spring {
+	background-image:url(images/thumbnails/spring.jpg);
+	background-size:cover;
+}
+
+.spring:hover {
+	background-image:url(images/thumbnails/spring.gif);
+	background-size:cover;
+}
+
+.venatic {
+	background-image:url(images/thumbnails/Venatic.jpg);
+	background-size:cover;
+}
+
+.venatic:hover {
+	background-image:url(images/thumbnails/Venatic.gif);
+	background-size:cover;
+}
+
+.wolf {
+	background-image:url(images/thumbnails/wolfgang.jpg);
+	background-size:cover;
+}
+
+.wolf:hover {
+	background-image:url(images/thumbnails/wolfgang.gif);
+	background-size:cover;
+}
+
+/* SLIDER */
+.rslides {
+  position:absolute;
+  list-style: none;
+  overflow: hidden;
+  /*width: 100%;*/
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  /*width: 100%;*/
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position:absolute;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.slitext {
+	margin-top:-40px;
+	margin-left:430px;
+}
+
+/* ANDET */
+
+.fl {
+	float:left;
+}
+
+.low {
+	margin-top:15px;
+}

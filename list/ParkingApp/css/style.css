@@ -1,0 +1,285 @@
+.space1 {
+  color: #a09798; }
+
+.space2 {
+  color: #a49393; }
+
+.space3 {
+  color: #a88f8f; }
+
+.space4 {
+  color: #ac8b8b; }
+
+.space5 {
+  color: #b08787; }
+
+.space6 {
+  color: #b58283; }
+
+.space7 {
+  color: #b97e7f; }
+
+.space8 {
+  color: #bd7a7b; }
+
+.space9 {
+  color: #c17677; }
+
+.space10 {
+  color: #c57273; }
+
+.space11 {
+  color: #c96e6f; }
+
+.space12 {
+  color: #ce696b; }
+
+.space13 {
+  color: #d26567; }
+
+.space14 {
+  color: #d66163; }
+
+.space15 {
+  color: #da5d5f; }
+
+.space16 {
+  color: #de595b; }
+
+.space17 {
+  color: #e35557; }
+
+.space18 {
+  color: #e75053; }
+
+.space19 {
+  color: #eb4c4f; }
+
+.space20 {
+  color: #ef484b; }
+
+.espace1 {
+  color: #5c6266; }
+
+.espace2 {
+  color: #57636a; }
+
+.espace3 {
+  color: #53656f; }
+
+.espace4 {
+  color: #4e6674; }
+
+.espace5 {
+  color: #496779; }
+
+.espace6 {
+  color: #44697e; }
+
+.espace7 {
+  color: #3f6a82; }
+
+.espace8 {
+  color: #3b6b87; }
+
+.espace9 {
+  color: #366c8c; }
+
+.espace10 {
+  color: #316e91; }
+
+.espace11 {
+  color: #2c6f96; }
+
+.espace12 {
+  color: #27709a; }
+
+.espace13 {
+  color: #23729f; }
+
+.espace14 {
+  color: #1e73a4; }
+
+.espace15 {
+  color: #1974a9; }
+
+.espace16 {
+  color: #1475ae; }
+
+.espace17 {
+  color: #0f77b2; }
+
+.espace18 {
+  color: #0b78b7; }
+
+.espace19 {
+  color: #0679bc; }
+
+.espace20 {
+  color: #017ac1; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Lato;
+  src: url(../media/Lato-Light.ttf); }
+body {
+  background: #2b2b2b;
+  color: #ffffff;
+  font-family: Lato; }
+
+.container {
+  padding: 15px; }
+
+ul {
+  list-style-type: none;
+  font-family: Arial;
+  font-size: 32px; }
+
+li {
+  display: inline-block; }
+
+h1 {
+  font-size: 32px; }
+
+/*.space {
+	color:hsla(202, 100%, 38%, 1);
+}
+.spaceTaken {
+	color:hsla(359,84%,61%,1);
+}*/
+header {
+  text-align: center;
+  border-bottom: solid 2px #ffffff;
+  padding-bottom: 15px; }
+
+.content {
+  text-align: center;
+  padding-top: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.displayNone {
+  display: none;
+  height: 0; }
+
+h1 p {
+  font-family: Arial;
+  color: #007bc2;
+  display: inline; }
+
+select {
+  border: 5px solid #eaeaea;
+  border-radius: 0;
+  background: transparent;
+  width: 80%;
+  padding: 3%;
+  font-size: 32px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  text-transform: none;
+  color: transparent;
+  text-shadow: 0 0 0 #ffffff;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease; }
+
+select:focus, select:hover {
+  border: 5px solid #eaeaea;
+  background: #eaeaea;
+  color: transparent;
+  text-shadow: 0 0 0 #424242; }
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #424242; }
+
+.subBtn {
+  border: 5px solid #eaeaea;
+  border-radius: 0;
+  background: transparent;
+  width: 80%;
+  padding: 3%;
+  font-size: 32px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: left;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease; }
+
+.subBtn:hover, .subBtn:focus {
+  background: #eaeaea;
+  color: #424242; }
+
+@media screen and (min-width: 768px) {
+  h1, h1 p, ul li p {
+    font-size: 48px; }
+
+  h2 {
+    font-size: 33px; }
+
+  h3, .subBtn, select {
+    font-size: 27px; }
+
+  p {
+    font-size: 24px; } }
+@media screen and (min-width: 992px) {
+  h1, h1 p, ul li p {
+    font-size: 64px; }
+
+  h2 {
+    font-size: 44px; }
+
+  h3, .subBtn, select {
+    font-size: 36px; }
+
+  p {
+    font-size: 32px; } }
+@media screen and (min-width: 1200px) {
+  h1, h1 p, ul li p {
+    font-size: 96px; }
+
+  h2 {
+    font-size: 66px; }
+
+  h3, .subBtn, select {
+    font-size: 54px; }
+
+  p {
+    font-size: 48px; } }
+@media screen and (min-width: 1400px) {
+  h1, h1 p, ul li p {
+    font-size: 128px; }
+
+  h2 {
+    font-size: 88px; }
+
+  h3, .subBtn, select {
+    font-size: 72px; }
+
+  p {
+    font-size: 64px; } }
+@media screen and (min-width: 1600px) {
+  h1, h1 p, ul li p {
+    font-size: 192px; }
+
+  h2 {
+    font-size: 132px; }
+
+  h3, .subBtn, select {
+    font-size: 108px; }
+
+  p {
+    font-size: 96px; } }
+
+/*# sourceMappingURL=style.css.map */

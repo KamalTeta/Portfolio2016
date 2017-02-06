@@ -1,0 +1,16 @@
+$highestNumber: 20;
+$anotherNumber: 20;
+
+@for $i from 1 through $highestNumber {
+	.space#{$i} {
+		color:hsla(359,$i*84/20%,61%,1);
+	}
+	
+}
+
+@for $i from 1 through $anotherNumber {
+	.espace#{$i} {
+		color:hsla(202,$i*99/20%,38%,1);
+	}
+	
+}

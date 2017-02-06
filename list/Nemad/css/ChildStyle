@@ -1,0 +1,25 @@
+/* STYLE FOR THE CHILD PAGE */
+
+@charset "UTF-8";
+
+@font-face {
+	font-family: Lato;
+	src:url(Lato-Medium.ttf);
+}
+
+@font-face {
+	font-family: Lato-Light;
+	src:url(Lato-light.ttf);
+}
+
+* {
+	margin:0 auto;
+	padding:0;
+	font-family: 'Lato-light', sans-serif;
+	color:#424242;
+	font-size:16px;
+}
+
+body{
+	background: #ff0;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<!-- SHADOWBOX -->
+    <link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+    <script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+    <script type="text/javascript">
+    Shadowbox.init({
+		handleOversize: "drag",
+		modal: true
+	});
+    </script>
+    
+<!-- SLIDER -->
+	<script src="jquery-.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script>
+					$(function() {
+						$(".rslides").responsiveSlides({
+						  auto: true,             // Boolean: Animate automatically, true or false
+						  speed: 500,            // Integer: Speed of the transition, in milliseconds
+						  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+						  pager: false,           // Boolean: Show pager, true or false
+						  nav: false,             // Boolean: Show navigation, true or false
+						  random: false,          // Boolean: Randomize the order of the slides, true or false
+						  pause: false,           // Boolean: Pause on hover, true or false
+						  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+						  prevText: "Previous",   // String: Text for the "previous" button
+						  nextText: "Next",       // String: Text for the "next" button
+						  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+						  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+						  manualControls: "",     // Selector: Declare custom pager navigation
+						  namespace: "rslides",   // String: Change the default namespace used
+						  before: function(){},   // Function: Before callback
+						  after: function(){}     // Function: After callback
+						});
+					});
+				</script>
+    
+<meta charset="UTF-8">
+<title>Mindspark</title>
+</head>
+
+<body>
+    <div class="bgImg"></div>
+	<div class="wrapper">
+    	<div class="header">
+        	<div class="logospace bleh">
+            	<a href="index.html"><img src="images/logo.png" id="MSlogo" alt="MindSpark Logo" height="79" width="230"/></a>
+            </div>
+            <div class="sli bleh">
+                <ul class="rslides">
+                  <li><img src="images/1.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/2.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/3.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/4.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/5.jpg" alt="" height="350" width="960"></li>
+                </ul>
+			</div>
+        </div>
+        <div class="navigation">
+        	<ul>
+            	<li><a href="galleri.html">Gallery</a></li> <li>\</li>
+                <li><a href="blog.html">Blog</a></li> <li>\</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="rslides slitext">
+                  <li class="flavor">Bringing up the underground</li>
+                  <li class="flavor">We have a lot of media experience</li>
+                  <li class="flavor">Take part in the proccess</li>
+                  <li class="flavor">Working hard. . .</li>
+                  <li class="flavor">Or hardly working!</li>
+			</ul>
+        </div>
+        <div class="content">
+        	<div class="main">
+            	<h1>Welcome to MindSpark</h1><br/>
+                <p>We are a small company based in Fredericia that have specialized around the creation of high quality videos. We offer professional and creative video solutions.<br/><br/>Versatile and experienced, we have worked with coffee places to NGOs to underground musicians.<br/><br/>Have a look around our site, check out our videos and remember to visit us on <a href="">Facebook</a>!</p>
+                <div style="margin-top:10px;text-align:center;">
+                    <img src="images/bulb.png" alt="bulb" height="202" width="133"/>
+                </div>
+            </div>
+            <div class="sidebar">
+            	<div style="margin-left:25px;margin-right:25px;margin-top:12px;">
+                	<h2>Our latest video</h2>
+                    <a href="http://www.youtube.com/embed/ZYl3RmRrU7Y?" rel="shadowbox;height=1400;width=1200"><div class="box amnesty" style="margin-left:0px;"></div></a>
+                    <script type="text/javascript"> 
+						swfobject.registerObject("FlashID"); 
+					</script>
+                </div>
+                <div style="margin-left:25px;margin-right:25px;border-top:solid 2px #666;margin-top:6px;">
+                	<h2 style="margin-top:6px;">Our latest blog post</h2>
+                    <p style="margin-left:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec mollis justo, at tempus tortor. Nulla scelerisque malesuada pharetra. Integer fermentum pharetra tellus, vitae pretium risus porttitor a. Nam turpis lectus, pharetra et est et, tempus feugiat elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        	<h4>This side is a school assignment, coded by Kamal Teta</h4>
+            <ul class="logo">
+            	<li><a href="*"><img src="images/face.png" alt="facebook logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/youtube.png" alt="youtube logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/twit.png" alt="twitter logo" height="25" width="25"/></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

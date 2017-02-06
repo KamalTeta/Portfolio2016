@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!-- SLIDER -->
+	<script src="jquery-.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script>
+					$(function() {
+						$(".rslides").responsiveSlides({
+						  auto: true,             // Boolean: Animate automatically, true or false
+						  speed: 500,            // Integer: Speed of the transition, in milliseconds
+						  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+						  pager: false,           // Boolean: Show pager, true or false
+						  nav: false,             // Boolean: Show navigation, true or false
+						  random: false,          // Boolean: Randomize the order of the slides, true or false
+						  pause: false,           // Boolean: Pause on hover, true or false
+						  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+						  prevText: "Previous",   // String: Text for the "previous" button
+						  nextText: "Next",       // String: Text for the "next" button
+						  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+						  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+						  manualControls: "",     // Selector: Declare custom pager navigation
+						  namespace: "rslides",   // String: Change the default namespace used
+						  before: function(){},   // Function: Before callback
+						  after: function(){}     // Function: After callback
+						});
+					});
+				</script>
+    
+<meta charset="UTF-8">
+<title>Mindspark</title>
+</head>
+
+<body>
+    <div class="bgImg"></div>
+	<div class="wrapper">
+    	<div class="header">
+        	<div class="logospace bleh">
+            	<a href="index.html"><img src="images/logo.png" id="MSlogo" alt="MindSpark Logo" height="79" width="230"/></a>
+            </div>
+            <div class="sli bleh">
+                <ul class="rslides">
+                  <li><img src="images/1.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/2.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/3.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/4.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/5.jpg" alt="" height="350" width="960"></li>
+                </ul>
+			</div>
+        </div>
+        <div class="navigation">
+        	<ul>
+            	<li><a href="galleri.html">Gallery</a></li> <li>\</li>
+                <li><a href="blog.html">Blog</a></li> <li>\</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="rslides slitext">
+                  <li class="flavor">Bringing up the underground</li>
+                  <li class="flavor">We have a lot of media experience</li>
+                  <li class="flavor">Take part in the proccess</li>
+                  <li class="flavor">Working hard. . .</li>
+                  <li class="flavor">Or hardly working!</li>
+			</ul>
+        </div>
+        <div class="content">
+        	<div class="mainG">
+            	<h1>MindSpark Blog</h1>
+                <div style="margin-left:35px;margin-right:25px;">
+                	<div style="margin-top:20px;">
+                    	<h2>Første blogpost</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed velit lorem. Donec sed viverra quam. Quisque efficitur et felis et iaculis. Morbi mollis tincidunt dignissim. Maecenas pellentesque lectus quis tellus sollicitudin ultrices eu ut augue. Nulla ultricies est a dui aliquam, vel commodo arcu condimentum. Fusce eu diam non dui scelerisque vulputate. Morbi condimentum arcu nisl, quis efficitur ante ultricies sit amet. Ut iaculis sapien eu imperdiet varius. Aliquam erat volutpat. </p>
+                	</div>
+                    <div style="border-top:solid 2px #666;margin-top:20px;">
+                    	<h2>Anden blogpost</h2>
+                        <p> Fusce porta metus lobortis elit ultrices vehicula. Nam gravida lorem nec odio lobortis, in varius quam aliquet. Phasellus suscipit arcu vitae nulla mattis, vitae egestas quam vehicula. Fusce euismod dignissim mauris, quis ultricies dui ornare eget. Nullam viverra scelerisque ex pretium aliquam. Phasellus ac lectus ut odio finibus tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris convallis odio eget dui scelerisque semper. Morbi ut imperdiet quam. Ut laoreet venenatis massa sit amet faucibus. Mauris imperdiet maximus lobortis. Duis non porttitor erat. </p>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        	<h4>This side is a school assignment, coded by Kamal Teta</h4>
+            <ul class="logo">
+            	<li><a href="*"><img src="images/face.png" alt="facebook logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/youtube.png" alt="youtube logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/twit.png" alt="twitter logo" height="25" width="25"/></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

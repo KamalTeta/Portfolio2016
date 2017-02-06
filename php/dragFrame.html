@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>placeholder</title>
+		<style>
+			#container{
+				background:#d3d3d3;
+				height:100%;
+				width:100%;
+				position:absolute;
+				top:0;left:0;
+			}
+			h2{
+				position:absolute;
+				transform:translate(-50%,-50%);
+				font-family: arial;
+			}
+			#whitey{
+				top:33%;left:50%;z-index:5;color:#fff;font-size: 32px;
+			}
+			#magenta{
+				top:33%;z-index:3;color:#f0f;font-size: 32px;
+			}
+			#cyan{
+				top:33%;z-index:2;color:#0ff;font-size: 32px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h2 id="whitey">The magic happens here!!</h2>
+			<h2 id="magenta">The magic happens here!!</h2>
+			<h2 id="cyan">The magic happens here!!</h2>
+		</div>
+		<script>
+			var maggy = document.getElementById('magenta');
+			var cya = document.getElementById('cyan');
+			setInterval(function(){
+			  cya.style.left = 'calc(50% + '+ Math.floor((Math.random() * 5) + 1) +'px)';
+			  maggy.style.left = 'calc(50% - '+ Math.floor((Math.random() * 5) + 1) +'px)';
+			  cya.style.top = 'calc(33% + '+ Math.floor((Math.random() * 10) - 5) +'px)';
+			  maggy.style.top = 'calc(33% - '+ Math.floor((Math.random() * 10) - 5) +'px)';
+			}, 150);
+		</script>
+	</body>
+</html>

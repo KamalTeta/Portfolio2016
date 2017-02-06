@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!-- SLIDER -->
+	<script src="jquery-.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script>
+					$(function() {
+						$(".rslides").responsiveSlides({
+						  auto: true,             // Boolean: Animate automatically, true or false
+						  speed: 500,            // Integer: Speed of the transition, in milliseconds
+						  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+						  pager: false,           // Boolean: Show pager, true or false
+						  nav: false,             // Boolean: Show navigation, true or false
+						  random: false,          // Boolean: Randomize the order of the slides, true or false
+						  pause: false,           // Boolean: Pause on hover, true or false
+						  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+						  prevText: "Previous",   // String: Text for the "previous" button
+						  nextText: "Next",       // String: Text for the "next" button
+						  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+						  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+						  manualControls: "",     // Selector: Declare custom pager navigation
+						  namespace: "rslides",   // String: Change the default namespace used
+						  before: function(){},   // Function: Before callback
+						  after: function(){}     // Function: After callback
+						});
+					});
+				</script>
+    
+<meta charset="UTF-8">
+<title>Mindspark</title>
+</head>
+
+<body>
+    <div class="bgImg"></div>
+	<div class="wrapper">
+    	<div class="header">
+        	<div class="logospace bleh">
+            	<a href="index.html"><img src="images/logo.png" id="MSlogo" alt="MindSpark Logo" height="79" width="230"/></a>
+            </div>
+            <div class="sli bleh">
+                <ul class="rslides">
+                  <li><img src="images/1.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/2.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/3.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/4.jpg" alt="" height="350" width="960"></li>
+                  <li><img src="images/5.jpg" alt="" height="350" width="960"></li>
+                </ul>
+			</div>
+        </div>
+        <div class="navigation">
+        	<ul>
+            	<li><a href="galleri.html">Gallery</a></li> <li>\</li>
+                <li><a href="blog.html">Blog</a></li> <li>\</li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="rslides slitext">
+                  <li class="flavor">Bringing up the underground</li>
+                  <li class="flavor">We have a lot of media experience</li>
+                  <li class="flavor">Take part in the proccess</li>
+                  <li class="flavor">Working hard. . .</li>
+                  <li class="flavor">Or hardly working!</li>
+			</ul>
+        </div>
+        <div class="content">
+        	<div class="mainG3">
+            	<h1 class="fl">Contact us:</h1>
+                <img src="images/brief.png" alt="mail" height="22" width="30" class="fl low" style="margin-left:25px;"/>
+                <p class="fl low" style="margin-left:5px;">Email: mindsparkfilms@gmail.com</p>
+                <img src="images/cell.png" alt="phone" height="22" width="30" class="fl low" style="margin-left:25px;"/>
+                <p class="fl low" style="margin-left:5px;">Tlf. 21 43 91 84</p>
+            </div>
+            <div class="third">
+            	<h2 style="margin-left:10px;">Brian J&oslash;rgensen</h2>
+                <p>Brian is the sensible guy in the firm, but he's still tons of fun! He can make business a pleasure</p><br/><br/>
+            	<img src="images/Brian-pic.png" alt="IMG" style="margin-left:10px;"/>
+            </div>
+            <div class="third">
+            	<h2 style="margin-left:10px;">Maksim Ruhjadiev</h2>
+                <p>Maksim is a very chill and down to earth dude who is pleasant to work with.</p><br/><br/>
+            	<img src="images/Maksim-pic.png" alt="IMG" style="margin-top:10px;margin-left:60px;"/>
+            </div>
+            <div class="third">
+            	<h2 style="margin-left:10px;">Kenneth Kjeldsen</h2>
+                <p>Kenneth is a tornado of energy and fun, and can warm the heart of everyone</p><br/><br/>
+            	<img src="images/kenneth-pic.png" alt="IMG" style="margin-top:5px;margin-right:10px;float:right;"/>
+            </div>
+        </div>
+        <div class="footer">
+        	<h4>This side is a school assignment, coded by Kamal Teta</h4>
+            <ul class="logo">
+            	<li><a href="*"><img src="images/face.png" alt="facebook logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/youtube.png" alt="youtube logo" height="25" width="25" style="margin-right:5px;"/></a></li>
+                <li><a href="*"><img src="images/twit.png" alt="twitter logo" height="25" width="25"/></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
