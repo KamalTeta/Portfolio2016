@@ -7,6 +7,7 @@
 			<p id="contactInfo"></p>
 			<p>Kamal Lamine Teta</p>
 			<a href="https://www.linkedin.com/in/kamal-teta">Linkedin</a><br/>
+			<a href="https://github.com/TalkativeTRex">GitHub</a><br/>
 			<a href="mailto:mail@kamalteta.com">mail@kamalteta.com</a>
 			<p>+45 42 48 99 01</p>
 		</div>
